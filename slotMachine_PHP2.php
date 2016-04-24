@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$db_link = mysql_connect( 'localhost', 'harvarda', 'Alfredng_0097') or die('Could not connect to server.' );
+$db_link = mysql_connect( 'localhost', 'usernameHidden', 'passwordHidden') or die('Could not connect to server.' );
 $db_selected = mysql_select_db('harvarda_tina_ryan', $db_link);
 $query= "select symbol, probability from slot_probabilities";
 
